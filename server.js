@@ -1,6 +1,9 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const axios = require('axios');
+const cors = require('cors');
+app.use(cors()); // Cho phép tất cả các nguồn gốc
+app.use(cors({ origin: 'http://localhost:8081' }));
 
 const app = express();
 const port = process.env.PORT || 5000;

@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node server.js"
   },
+  "proxy": "https://otpsms.onrender.com",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -12,6 +13,7 @@
   "dependencies": {
     "axios": "^1.8.4",
     "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
     "express": "^5.1.0"
   }
 }
